@@ -2,8 +2,8 @@
 
 target=$(cat ~/.config/bin/target)
 
-if [ $target ]; then
-    echo "%{F#e51d0b}什%{F#ffffff} $target%{u-}"
+if [ -n "$target" ]; then
+    echo "%{F#ffff00}ﲅ%{F#ffffff} $target%{u-}"
 else
-    echo "%{F#e51d0b}ﲅ %{u-}%{F#ffffff} No target"
+    echo "%{F#e51d0b}ﲅ%{u-}%{F#ffffff} No target"
 fi

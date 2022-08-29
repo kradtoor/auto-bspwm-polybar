@@ -166,6 +166,8 @@ super + p
   xte "keyup p" "keyup Super_L" "keydown Control_L" "key p" "keyup Control_L" "keydown Super_L"
 super + s
   xte "keyup s" "keyup Super_L" "keydown Control_L" "key s" "keyup Control_L" "keydown Super_L"
+super + l
+  xte "keyup l" "keyup Super_L" "keydown Control_L" "key l" "keyup Control_L" "keydown Super_L"
 
 # Open tab, close tab, restore closed tab
 super + t
